@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "485dac16-5998-4e8c-b9ef-1dd9d879906c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 81,
+  "height": 37,
+  "platformSettings": {},
+  "subMetas": {
+    "thongbaoJackpot2": {
+      "ver": "1.0.4",
+      "uuid": "2b8c05a9-bfa0-408a-ae28-2d3eaaab75db",
+      "rawTextureUuid": "485dac16-5998-4e8c-b9ef-1dd9d879906c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 81,
+      "height": 37,
+      "rawWidth": 81,
+      "rawHeight": 37,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

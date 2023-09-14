@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "fdb4eab3-b9bb-4714-aee6-bb7c268f1376",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 2048,
+  "height": 2048,
+  "platformSettings": {},
+  "subMetas": {
+    "Go anim lobby_cut1": {
+      "ver": "1.0.4",
+      "uuid": "a0785bfe-3a58-452b-b81e-4cf1d2408f90",
+      "rawTextureUuid": "fdb4eab3-b9bb-4714-aee6-bb7c268f1376",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 3,
+      "trimY": 3,
+      "width": 2042,
+      "height": 2043,
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

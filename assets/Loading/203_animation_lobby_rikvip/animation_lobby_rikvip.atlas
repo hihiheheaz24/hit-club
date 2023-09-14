@@ -1,0 +1,664 @@
+
+animation_lobby_rikvip.png
+size: 761,761
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Jackpot Icon border
+  rotate: true
+  xy: 122, 12
+  size: 111, 33
+  orig: 111, 33
+  offset: 0, 0
+  index: -1
+Jackpot Icon0
+  rotate: true
+  xy: 295, 295
+  size: 112, 81
+  orig: 112, 81
+  offset: 0, 0
+  index: -1
+Jackpot Icon1
+  rotate: true
+  xy: 336, 101
+  size: 58, 81
+  orig: 58, 81
+  offset: 0, 0
+  index: -1
+Jackpot Icon10
+  rotate: false
+  xy: 433, 144
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+Jackpot Icon11
+  rotate: false
+  xy: 651, 187
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+Jackpot Icon3
+  rotate: false
+  xy: 358, 275
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+Jackpot Icon4
+  rotate: false
+  xy: 520, 524
+  size: 111, 33
+  orig: 111, 33
+  offset: 0, 0
+  index: -1
+Jackpot Icon5
+  rotate: true
+  xy: 433, 134
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+Jackpot Icon6
+  rotate: false
+  xy: 336, 163
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+Jackpot Icon7
+  rotate: false
+  xy: 173, 517
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+Jackpot Icon8
+  rotate: false
+  xy: 358, 258
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+Jackpot Icon9
+  rotate: true
+  xy: 258, 88
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+Jackpot roll0
+  rotate: true
+  xy: 726, 119
+  size: 12, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll1
+  rotate: true
+  xy: 241, 2
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll10
+  rotate: false
+  xy: 633, 536
+  size: 11, 21
+  orig: 13, 21
+  offset: 1, 0
+  index: -1
+Jackpot roll11
+  rotate: false
+  xy: 742, 408
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll12
+  rotate: false
+  xy: 740, 529
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll13
+  rotate: true
+  xy: 628, 120
+  size: 8, 21
+  orig: 13, 21
+  offset: 2, 0
+  index: -1
+Jackpot roll14
+  rotate: false
+  xy: 456, 110
+  size: 12, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll2
+  rotate: true
+  xy: 264, 2
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll3
+  rotate: false
+  xy: 313, 272
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll4
+  rotate: false
+  xy: 328, 272
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll5
+  rotate: true
+  xy: 2, 2
+  size: 10, 21
+  orig: 13, 21
+  offset: 1, 0
+  index: -1
+Jackpot roll6
+  rotate: false
+  xy: 419, 138
+  size: 12, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll7
+  rotate: false
+  xy: 343, 272
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll8
+  rotate: true
+  xy: 642, 482
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+Jackpot roll9
+  rotate: false
+  xy: 160, 512
+  size: 11, 20
+  orig: 13, 21
+  offset: 1, 0
+  index: -1
+Nap tien10
+  rotate: true
+  xy: 472, 20
+  size: 48, 52
+  orig: 48, 52
+  offset: 0, 0
+  index: -1
+Nap tien11
+  rotate: true
+  xy: 574, 82
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+Nap tien12
+  rotate: false
+  xy: 472, 70
+  size: 54, 61
+  orig: 54, 61
+  offset: 0, 0
+  index: -1
+Nap tien2
+  rotate: false
+  xy: 742, 393
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+Nap tien3
+  rotate: false
+  xy: 509, 685
+  size: 134, 74
+  orig: 134, 74
+  offset: 0, 0
+  index: -1
+Nap tien4
+  rotate: true
+  xy: 419, 101
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+Nap tien5
+  rotate: false
+  xy: 528, 100
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+Nap tien6
+  rotate: false
+  xy: 232, 674
+  size: 275, 85
+  orig: 275, 85
+  offset: 0, 0
+  index: -1
+Nap tien7
+  rotate: true
+  xy: 706, 286
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+Nap tien8
+  rotate: false
+  xy: 298, 32
+  size: 48, 66
+  orig: 48, 66
+  offset: 0, 0
+  index: -1
+Nap tien9
+  rotate: false
+  xy: 726, 133
+  size: 32, 52
+  orig: 32, 52
+  offset: 0, 0
+  index: -1
+arrow1
+  rotate: false
+  xy: 740, 552
+  size: 19, 35
+  orig: 19, 35
+  offset: 0, 0
+  index: -1
+arrow2
+  rotate: true
+  xy: 298, 2
+  size: 28, 47
+  orig: 28, 47
+  offset: 0, 0
+  index: -1
+backlight
+  rotate: false
+  xy: 2, 534
+  size: 228, 225
+  orig: 228, 225
+  offset: 0, 0
+  index: -1
+bongden0
+  rotate: false
+  xy: 520, 559
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+chiploading0
+  rotate: false
+  xy: 736, 589
+  size: 13, 102
+  orig: 13, 102
+  offset: 0, 0
+  index: -1
+chiploading1
+  rotate: true
+  xy: 396, 486
+  size: 37, 103
+  orig: 37, 103
+  offset: 0, 0
+  index: -1
+chiploading2
+  rotate: true
+  xy: 645, 693
+  size: 66, 103
+  orig: 66, 103
+  offset: 0, 0
+  index: -1
+chiploading3
+  rotate: true
+  xy: 389, 396
+  size: 88, 101
+  orig: 88, 101
+  offset: 0, 0
+  index: -1
+chiploading4
+  rotate: false
+  xy: 286, 409
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+chiploading5
+  rotate: false
+  xy: 605, 483
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+chiploading6
+  rotate: false
+  xy: 628, 81
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+chiploading7
+  rotate: true
+  xy: 569, 2
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+chiploading8
+  rotate: false
+  xy: 666, 85
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+dassslight
+  rotate: true
+  xy: 138, 264
+  size: 268, 20
+  orig: 270, 20
+  offset: 0, 0
+  index: -1
+dennaptien
+  rotate: true
+  xy: 51, 258
+  size: 274, 85
+  orig: 274, 85
+  offset: 0, 0
+  index: -1
+hopqua1
+  rotate: true
+  xy: 232, 512
+  size: 160, 162
+  orig: 160, 162
+  offset: 0, 0
+  index: -1
+hopqua2
+  rotate: false
+  xy: 576, 204
+  size: 87, 85
+  orig: 87, 85
+  offset: 0, 0
+  index: -1
+hopqua3
+  rotate: true
+  xy: 396, 525
+  size: 147, 122
+  orig: 147, 122
+  offset: 0, 0
+  index: -1
+light0
+  rotate: false
+  xy: 160, 272
+  size: 151, 17
+  orig: 151, 17
+  offset: 0, 0
+  index: -1
+lightsaochoi
+  rotate: false
+  xy: 2, 14
+  size: 118, 109
+  orig: 118, 109
+  offset: 0, 0
+  index: -1
+logonho1
+  rotate: true
+  xy: 51, 125
+  size: 131, 106
+  orig: 131, 106
+  offset: 0, 0
+  index: -1
+logonho2
+  rotate: true
+  xy: 646, 497
+  size: 87, 92
+  orig: 87, 92
+  offset: 0, 0
+  index: -1
+logonho3
+  rotate: false
+  xy: 160, 291
+  size: 133, 94
+  orig: 133, 94
+  offset: 0, 0
+  index: -1
+logonho4
+  rotate: true
+  xy: 643, 291
+  size: 46, 61
+  orig: 47, 62
+  offset: 0, 0
+  index: -1
+lvlup0
+  rotate: false
+  xy: 378, 304
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup1
+  rotate: false
+  xy: 477, 301
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup2
+  rotate: false
+  xy: 378, 212
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup3
+  rotate: false
+  xy: 477, 209
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup4
+  rotate: false
+  xy: 643, 339
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup5
+  rotate: true
+  xy: 665, 187
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup6
+  rotate: false
+  xy: 160, 180
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup7
+  rotate: false
+  xy: 159, 88
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+lvlup8
+  rotate: false
+  xy: 259, 180
+  size: 97, 90
+  orig: 97, 90
+  offset: 0, 0
+  index: -1
+moi ban2
+  rotate: false
+  xy: 704, 87
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+moi ban3
+  rotate: false
+  xy: 528, 55
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+option301
+  rotate: false
+  xy: 160, 387
+  size: 124, 123
+  orig: 124, 123
+  offset: 0, 0
+  index: -1
+option302
+  rotate: false
+  xy: 633, 524
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+option303
+  rotate: true
+  xy: 646, 586
+  size: 105, 88
+  orig: 105, 88
+  offset: 0, 0
+  index: -1
+option304
+  rotate: false
+  xy: 527, 146
+  size: 45, 61
+  orig: 45, 61
+  offset: 0, 0
+  index: -1
+option305
+  rotate: false
+  xy: 241, 17
+  size: 55, 69
+  orig: 55, 69
+  offset: 0, 0
+  index: -1
+option306
+  rotate: true
+  xy: 651, 119
+  size: 66, 73
+  orig: 66, 73
+  offset: 0, 0
+  index: -1
+option307
+  rotate: true
+  xy: 450, 133
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+option308
+  rotate: false
+  xy: 157, 7
+  size: 82, 79
+  orig: 82, 79
+  offset: 0, 0
+  index: -1
+option309
+  rotate: false
+  xy: 258, 100
+  size: 76, 78
+  orig: 76, 78
+  offset: 0, 0
+  index: -1
+option310
+  rotate: false
+  xy: 574, 130
+  size: 75, 72
+  orig: 75, 72
+  offset: 0, 0
+  index: -1
+option311
+  rotate: false
+  xy: 348, 37
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+option312
+  rotate: false
+  xy: 526, 18
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+option313
+  rotate: false
+  xy: 501, 483
+  size: 102, 39
+  orig: 102, 39
+  offset: 0, 0
+  index: -1
+option314
+  rotate: false
+  xy: 358, 161
+  size: 90, 49
+  orig: 90, 49
+  offset: 0, 0
+  index: -1
+ruttien0
+  rotate: false
+  xy: 492, 393
+  size: 99, 88
+  orig: 99, 88
+  offset: 0, 0
+  index: -1
+ruttien1
+  rotate: false
+  xy: 593, 393
+  size: 35, 88
+  orig: 35, 88
+  offset: 0, 0
+  index: -1
+ruttien2
+  rotate: false
+  xy: 410, 37
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 573, 39
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+tai
+  rotate: false
+  xy: 665, 431
+  size: 94, 64
+  orig: 95, 64
+  offset: 1, 0
+  index: -1
+thanhmoiban
+  rotate: true
+  xy: 2, 129
+  size: 403, 47
+  orig: 403, 47
+  offset: 0, 0
+  index: -1
+xiu
+  rotate: true
+  xy: 576, 291
+  size: 100, 65
+  orig: 101, 65
+  offset: 1, 0
+  index: -1

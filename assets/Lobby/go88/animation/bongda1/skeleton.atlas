@@ -1,0 +1,62 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Casino
+  rotate: false
+  xy: 2, 2
+  size: 234, 73
+  orig: 234, 73
+  offset: 0, 0
+  index: -1
+Live
+  rotate: false
+  xy: 268, 118
+  size: 117, 38
+  orig: 117, 38
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 77
+  size: 264, 399
+  orig: 264, 399
+  offset: 0, 0
+  index: -1
+cha2
+  rotate: false
+  xy: 419, 206
+  size: 127, 270
+  orig: 127, 270
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 548, 367
+  size: 112, 109
+  orig: 112, 109
+  offset: 0, 0
+  index: -1
+mat
+  rotate: false
+  xy: 419, 191
+  size: 37, 13
+  orig: 37, 13
+  offset: 0, 0
+  index: -1
+nguoi
+  rotate: false
+  xy: 268, 158
+  size: 149, 318
+  orig: 149, 318
+  offset: 0, 0
+  index: -1
+tay
+  rotate: true
+  xy: 662, 438
+  size: 38, 166
+  orig: 38, 166
+  offset: 0, 0
+  index: -1

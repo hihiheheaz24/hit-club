@@ -1,0 +1,41 @@
+
+EffectHeader202.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blur
+  rotate: false
+  xy: 2, 2
+  size: 178, 134
+  orig: 178, 134
+  offset: 0, 0
+  index: -1
+Boder
+  rotate: false
+  xy: 2, 138
+  size: 467, 87
+  orig: 467, 87
+  offset: 0, 0
+  index: -1
+Light
+  rotate: false
+  xy: 681, 105
+  size: 131, 120
+  orig: 131, 120
+  offset: 0, 0
+  index: -1
+Logo1
+  rotate: false
+  xy: 182, 39
+  size: 208, 97
+  orig: 208, 97
+  offset: 0, 0
+  index: -1
+Logo2
+  rotate: false
+  xy: 471, 128
+  size: 208, 97
+  orig: 208, 97
+  offset: 0, 0
+  index: -1

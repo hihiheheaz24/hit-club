@@ -1,0 +1,41 @@
+
+livego88plus.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+khung live
+  rotate: false
+  xy: 286, 1
+  size: 283, 432
+  orig: 283, 432
+  offset: 0, 0
+  index: -1
+girl live
+  rotate: false
+  xy: 1, 1
+  size: 283, 432
+  orig: 283, 432
+  offset: 0, 0
+  index: -1
+viền live
+  rotate: false
+  xy: 1, 435
+  size: 283, 432
+  orig: 283, 432
+  offset: 0, 0
+  index: -1
+live
+  rotate: false
+  xy: 242, 869
+  size: 153, 73
+  orig: 153, 73
+  offset: 0, 0
+  index: -1
+casino
+  rotate: false
+  xy: 1, 869
+  size: 239, 81
+  orig: 239, 81
+  offset: 0, 0
+  index: -1

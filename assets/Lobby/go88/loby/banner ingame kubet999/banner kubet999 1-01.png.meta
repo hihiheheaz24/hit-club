@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "784a112d-4b69-4922-8efd-ae17a83a0063",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1528,
+  "height": 2387,
+  "platformSettings": {},
+  "subMetas": {
+    "banner kubet999 1-01": {
+      "ver": "1.0.4",
+      "uuid": "49ac99d1-b4bb-4d46-9436-867938001f12",
+      "rawTextureUuid": "784a112d-4b69-4922-8efd-ae17a83a0063",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1528,
+      "height": 2387,
+      "rawWidth": 1528,
+      "rawHeight": 2387,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

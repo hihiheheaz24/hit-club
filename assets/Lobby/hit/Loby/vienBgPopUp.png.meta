@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "73142c8f-4c13-4d90-9377-bcf6669347a1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 626,
+  "height": 324,
+  "platformSettings": {},
+  "subMetas": {
+    "vienBgPopUp": {
+      "ver": "1.0.4",
+      "uuid": "187dc827-99d3-4b5b-8bc8-8df4552c46d3",
+      "rawTextureUuid": "73142c8f-4c13-4d90-9377-bcf6669347a1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 626,
+      "height": 324,
+      "rawWidth": 626,
+      "rawHeight": 324,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

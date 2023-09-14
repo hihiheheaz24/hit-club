@@ -1,0 +1,48 @@
+
+sexy.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+khung sexy
+  rotate: false
+  xy: 1, 1
+  size: 283, 432
+  orig: 283, 432
+  offset: 0, 0
+  index: -1
+girl 1
+  rotate: false
+  xy: 286, 1
+  size: 196, 352
+  orig: 196, 352
+  offset: 0, 0
+  index: -1
+girl 2
+  rotate: false
+  xy: 484, 1
+  size: 172, 311
+  orig: 172, 311
+  offset: 0, 0
+  index: -1
+logo sexy
+  rotate: false
+  xy: 484, 314
+  size: 140, 124
+  orig: 140, 124
+  offset: 0, 0
+  index: -1
+sexy
+  rotate: false
+  xy: 286, 355
+  size: 139, 115
+  orig: 139, 115
+  offset: 0, 0
+  index: -1
+ae
+  rotate: false
+  xy: 626, 314
+  size: 118, 120
+  orig: 118, 120
+  offset: 0, 0
+  index: -1

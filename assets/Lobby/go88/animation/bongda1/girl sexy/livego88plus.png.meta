@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "0c443c6e-80c9-446e-a234-860f7fda7dce",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 1024,
+  "platformSettings": {},
+  "subMetas": {
+    "livego88plus": {
+      "ver": "1.0.4",
+      "uuid": "31ba57a0-6760-48de-96bd-78faf2a757fb",
+      "rawTextureUuid": "0c443c6e-80c9-446e-a234-860f7fda7dce",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -233,
+      "offsetY": 34.5,
+      "trimX": 1,
+      "trimY": 13,
+      "width": 556,
+      "height": 929,
+      "rawWidth": 1024,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

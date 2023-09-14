@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "bbdd4d33-4f13-4fb7-ae2a-d23afda1644e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 85,
+  "height": 84,
+  "platformSettings": {},
+  "subMetas": {
+    "fonJackpotIdMember-export": {
+      "ver": "1.0.4",
+      "uuid": "4d38adb5-63fc-46b8-ab71-b971f95e78be",
+      "rawTextureUuid": "bbdd4d33-4f13-4fb7-ae2a-d23afda1644e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 84,
+      "height": 83,
+      "rawWidth": 85,
+      "rawHeight": 84,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
