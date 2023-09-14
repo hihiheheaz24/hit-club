@@ -130,6 +130,9 @@ export class PanelMenu {
 namespace Lobby {
     @ccclass
     export class LobbyController extends cc.Component {
+
+        @property(cc.WebView)
+        webGameAPI: cc.WebView = null;
         @property(cc.Node)
         nodeTop: cc.Node = null;
         @property(cc.Node)
@@ -1044,8 +1047,6 @@ namespace Lobby {
             );
         }
         actLoginToken(data): void {
-            cc.log("check token la : ", data.at)
-            cc.log("check token la : ", data.at)
             Configs.Login.AccessToken = data.at;
             Configs.Login.AccessToken2 = data.at;
             App.instance.showLoading(true);
@@ -1067,7 +1068,6 @@ namespace Lobby {
                         Configs.Login.IsLogin = true;
                         var userInfo = JSON.parse(base64.decode(Configs.Login.SessionKey));
                         Configs.Login.Nickname = userInfo["nickname"];
-                        cc.log("check token nickname la : ", Configs.Login.Nickname)
                         Configs.Login.Avatar = userInfo["avatar"];
                         Configs.Login.Username = userInfo["username"];
                         let dataLogin: any = {};
@@ -2042,6 +2042,70 @@ namespace Lobby {
             });
 
         }
+
+        actGameSlotAPI() {
+            AudioManager.getInstance().playEffect(this.click);
+            if (!Configs.Login.IsLogin) {
+                App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_need_login'));
+                return;
+            }
+            App.instance.showLoading(true);
+            cc.log("check Configs.Login.AccessToken : ", Configs.Login.AccessToken);
+            cc.log("check token nickname la : ", Configs.Login.Nickname);
+            cc.log("check ip : ", Configs.Login.IpAddress)
+            cc.log("check platfrom : ", this.GetPlatFrom());
+            let textLinkFormat = "https://iportal.hit9.live/api?c=3000&nn={0}&at={1}&ip={2}&did=cea562c9e0eb0aa56a0fac1d19e5b49cc0ec6c2e3f40569f76e692218770c4ea&pf={3}&gt=0&gi=19"
+            let linkRequest = this.formatString(textLinkFormat, [Configs.Login.Nickname, Configs.Login.AccessToken, Configs.Login.IpAddress, this.GetPlatFrom()]);
+            cc.log("check link request : ", linkRequest)
+            
+            let http = cc.loader.getXMLHttpRequest();
+            http.open("GET", linkRequest, true);
+            http.setRequestHeader('Content-Type', 'application/json');
+            http.onreadystatechange = () => {//Call a function when the state changes.
+                if (http.readyState === 4) {
+                    if (http.status >= 200 && http.status < 300) {
+                        App.instance.showLoading(false);
+                        let dataResponse = JSON.parse(http.responseText);
+                        console.log("check data :", dataResponse);
+                        // this.webGameAPI.node.active = true;
+                        console.log("check link :", dataResponse.data);
+                        let abc = dataResponse.data;
+                        var api = decodeURIComponent(abc);
+                        cc.log("check encryptedData : ", api)
+                        // this.webGameAPI.url = dataResponse.data;
+                    }
+                }
+            };
+            http.ontimeout = () => {
+                console.log("load time out");
+
+            };
+            http.onerror = () => {
+                console.log("load error")
+            };
+            http.send();
+
+        }
+
+        formatString(text, argument) {
+            for (var i = 0; i < argument.length; i++) {
+                text = text.replace("{" + i + "}", argument[i]);
+            }
+            return text;
+        }
+
+        GetPlatFrom() {
+            if (cc.sys.isBrowser) return "macos";
+            switch (cc.sys.os) {
+                case cc.sys.OS_ANDROID:
+                    return "android"
+                case cc.sys.OS_IOS:
+                    return "ios"
+                case cc.sys.OS_WINDOWS:
+                    return "window"
+            }
+        }
+
 		actGameTaiXiuMd5() {
             if (!Configs.Login.IsLogin) {
                 App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_need_login'));
