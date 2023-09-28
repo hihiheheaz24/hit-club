@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "79fca940-cdbf-4561-a729-5d765cc0307b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 307,
+  "height": 442,
+  "platformSettings": {},
+  "subMetas": {
+    "Dragon gate": {
+      "ver": "1.0.4",
+      "uuid": "ab756e37-a5a3-4c19-b807-712c15655e8f",
+      "rawTextureUuid": "79fca940-cdbf-4561-a729-5d765cc0307b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 307,
+      "height": 442,
+      "rawWidth": 307,
+      "rawHeight": 442,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

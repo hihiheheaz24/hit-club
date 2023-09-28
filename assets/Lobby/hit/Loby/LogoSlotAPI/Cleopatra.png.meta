@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "45ea7787-d446-4275-bc6f-da179d015dda",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 308,
+  "height": 445,
+  "platformSettings": {},
+  "subMetas": {
+    "Cleopatra": {
+      "ver": "1.0.4",
+      "uuid": "3809f350-ab22-4dd4-816a-70dbb4bf6d82",
+      "rawTextureUuid": "45ea7787-d446-4275-bc6f-da179d015dda",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 308,
+      "height": 445,
+      "rawWidth": 308,
+      "rawHeight": 445,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

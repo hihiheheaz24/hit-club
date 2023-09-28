@@ -1,6 +1,6 @@
 {
   "ver": "2.3.5",
-  "uuid": "a7f329a3-be72-4129-b8e7-48934c9e4ba1",
+  "uuid": "db6621a2-95a0-49e4-a598-cebd094f5fce",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -11,19 +11,19 @@
   "height": 442,
   "platformSettings": {},
   "subMetas": {
-    "Pots of gold": {
+    "buhada": {
       "ver": "1.0.4",
-      "uuid": "1ac40c54-c885-496c-93dc-92d21ec3d961",
-      "rawTextureUuid": "a7f329a3-be72-4129-b8e7-48934c9e4ba1",
+      "uuid": "3ca9350b-7d84-41e6-a36e-676b25f30e25",
+      "rawTextureUuid": "db6621a2-95a0-49e4-a598-cebd094f5fce",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 0,
-      "offsetY": 0,
+      "offsetY": -0.5,
       "trimX": 0,
-      "trimY": 0,
+      "trimY": 7,
       "width": 307,
-      "height": 442,
+      "height": 429,
       "rawWidth": 307,
       "rawHeight": 442,
       "borderTop": 0,

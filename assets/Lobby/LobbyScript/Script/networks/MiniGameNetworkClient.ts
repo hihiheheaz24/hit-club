@@ -46,6 +46,7 @@ export default class MiniGameNetworkClient extends NetworkClient {
     }
 
     connect() {
+        cc.log("chay vao connect minigame")
         super.connect(Configs.App.HOST_MINIGAME.host, Configs.App.HOST_MINIGAME.port);
          //Utils.Log("Port Mini Game:"+ Configs.App.HOST_MINIGAME.port);
     }

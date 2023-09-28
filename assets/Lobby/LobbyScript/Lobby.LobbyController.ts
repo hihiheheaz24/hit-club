@@ -374,6 +374,7 @@ namespace Lobby {
             }, this);
 
             BroadcastReceiver.register(BroadcastReceiver.USER_UPDATE_COIN, () => {
+                cc.log("chay vao update coin.... 111 ", Configs.Login.Coin)
                 Tween.numberTo(this.lblCoin, Configs.Login.Coin, 0.3);
             }, this);
             BroadcastReceiver.register(BroadcastReceiver.ON_UPDATE_MAIL, () => {
@@ -390,6 +391,7 @@ namespace Lobby {
                 this.panelLogined.active = true;
                 this.updateMail();
                 MiniGameNetworkClient.getInstance().sendCheck(new cmd.ReqGetSecurityInfo());
+                cc.log("chay vao update coin.... 222 ,", Configs.Login.Coin)
                 Tween.numberTo(this.lblCoin, Configs.Login.Coin, 0.3);
 
                 MiniGameNetworkClient.getInstance().sendCheck(new cmd.SendScribe());
@@ -451,6 +453,7 @@ namespace Lobby {
             console.log("start")
             Configs.App.getServerConfig();
             MiniGameNetworkClient.getInstance().addOnClose(() => {
+                cc.log("chay vao close min game")
                 ////Utils.Log("on close minigame");
             }, this);
             this.startEff();
@@ -548,6 +551,7 @@ namespace Lobby {
             }
             MiniGameNetworkClient.getInstance().addListener((data) => {
                 let inPacket = new InPacket(data);
+                cc.log("check cmd code MiniGameNetworkClient : ", inPacket.getCmdId())
                 switch (inPacket.getCmdId()) {
                     case cmd.Code.GET_SECURITY_INFO:
                         App.instance.showLoading(false);
@@ -642,6 +646,7 @@ namespace Lobby {
                     }
                     case cmd.Code.TX_GAME_INFO_MD5: {
                         let res = new cmd.TXGameInfo(data);
+                        console.log("check data txmd5 : ", res)
                         let chipEnd = res.potTai > res.potXiu ? res.potXiu : res.potTai;
                         let potTai = !res.bettingState ? chipEnd : res.potTai;
                         let potXiu = !res.bettingState ? chipEnd : res.potXiu;
@@ -665,6 +670,7 @@ namespace Lobby {
             }, this);
             SlotNetworkClient.getInstance().addListener((data) => {
                 let inPacket = new InPacket(data);
+                cc.log("check cmd code SlotNetworkClient : ", inPacket.getCmdId())
                 switch (inPacket.getCmdId()) {
                     case cmd.Code.UPDATE_JACKPOT_SLOTS: {
                         let res = new cmd.ResUpdateJackpotSlots(data);
@@ -678,6 +684,7 @@ namespace Lobby {
             }, this);
             SlotNetworkClient.getInstance().addListener((data) => {
                 let inPacket = new InPacket(data);
+                cc.log("check cmd code SlotNetworkClient 22 : ", inPacket.getCmdId())
                 switch (inPacket.getCmdId()) {
 
                     case cmd.Code.UPDATE_JACKPOT_SLOTS: {
@@ -2043,21 +2050,22 @@ namespace Lobby {
 
         }
 
-        actGameSlotAPI() {
+        actGameSlotAPI(event, data) {
             AudioManager.getInstance().playEffect(this.click);
             if (!Configs.Login.IsLogin) {
                 App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_need_login'));
                 return;
             }
+           
             App.instance.showLoading(true);
             cc.log("check Configs.Login.AccessToken : ", Configs.Login.AccessToken);
             cc.log("check token nickname la : ", Configs.Login.Nickname);
             cc.log("check ip : ", Configs.Login.IpAddress)
             cc.log("check platfrom : ", this.GetPlatFrom());
-            let textLinkFormat = "https://iportal.hit9.live/api?c=3000&nn={0}&at={1}&ip={2}&did=cea562c9e0eb0aa56a0fac1d19e5b49cc0ec6c2e3f40569f76e692218770c4ea&pf={3}&gt=0&gi=19"
-            let linkRequest = this.formatString(textLinkFormat, [Configs.Login.Nickname, Configs.Login.AccessToken, Configs.Login.IpAddress, this.GetPlatFrom()]);
-            cc.log("check link request : ", linkRequest)
-            
+            cc.log("check data game id " , data)
+            let textLinkFormat = "https://iportal.hit9.live/api?c=3000&nn={0}&at={1}&ip={2}&did=cea562c9e0eb0aa56a0fac1d19e5b49cc0ec6c2e3f40569f76e692218770c4ea&pf={3}&gt=0&gi={4}"
+            let linkRequest = this.formatString(textLinkFormat, [Configs.Login.Nickname, Configs.Login.AccessToken, Configs.Login.IpAddress, this.GetPlatFrom(), data]);
+            console.log("check link request : ", linkRequest)
             let http = cc.loader.getXMLHttpRequest();
             http.open("GET", linkRequest, true);
             http.setRequestHeader('Content-Type', 'application/json');
@@ -2067,12 +2075,9 @@ namespace Lobby {
                         App.instance.showLoading(false);
                         let dataResponse = JSON.parse(http.responseText);
                         console.log("check data :", dataResponse);
-                        // this.webGameAPI.node.active = true;
+                        this.webGameAPI.node.parent.active = true;
                         console.log("check link :", dataResponse.data);
-                        let abc = dataResponse.data;
-                        var api = decodeURIComponent(abc);
-                        cc.log("check encryptedData : ", api)
-                        // this.webGameAPI.url = dataResponse.data;
+                        this.webGameAPI.url = dataResponse.data;
                     }
                 }
             };
@@ -2085,6 +2090,53 @@ namespace Lobby {
             };
             http.send();
 
+        }
+
+        actGameFishAPI(event, data) {
+            AudioManager.getInstance().playEffect(this.click);
+            if (!Configs.Login.IsLogin) {
+                App.instance.alertDialog.showMsg(App.instance.getTextLang('txt_need_login'));
+                return;
+            }
+           
+            App.instance.showLoading(true);
+            cc.log("check Configs.Login.AccessToken : ", Configs.Login.AccessToken);
+            cc.log("check token nickname la : ", Configs.Login.Nickname);
+            cc.log("check ip : ", Configs.Login.IpAddress)
+            cc.log("check platfrom : ", this.GetPlatFrom());
+            cc.log("check data game id " , data)
+            let textLinkFormat = "https://iportal.hit9.live/api?c=3000&nn={0}&at={1}&ip={2}&did=cea562c9e0eb0aa56a0fac1d19e5b49cc0ec6c2e3f40569f76e692218770c4ea&pf={3}&gt=2&gi={4}"
+            let linkRequest = this.formatString(textLinkFormat, [Configs.Login.Nickname, Configs.Login.AccessToken, Configs.Login.IpAddress, this.GetPlatFrom(), data]);
+            console.log("check link request : ", linkRequest)
+            let http = cc.loader.getXMLHttpRequest();
+            http.open("GET", linkRequest, true);
+            http.setRequestHeader('Content-Type', 'application/json');
+            http.onreadystatechange = () => {//Call a function when the state changes.
+                if (http.readyState === 4) {
+                    if (http.status >= 200 && http.status < 300) {
+                        App.instance.showLoading(false);
+                        let dataResponse = JSON.parse(http.responseText);
+                        console.log("check data :", dataResponse);
+                        this.webGameAPI.node.parent.active = true;
+                        console.log("check link :", dataResponse.data);
+                        this.webGameAPI.url = dataResponse.data;
+                    }
+                }
+            };
+            http.ontimeout = () => {
+                console.log("load time out");
+
+            };
+            http.onerror = () => {
+                console.log("load error")
+            };
+            http.send();
+
+        }
+
+        actBackGameAPI() {
+            this.webGameAPI.node.parent.active = false;
+            this.webGameAPI.url = "";
         }
 
         formatString(text, argument) {

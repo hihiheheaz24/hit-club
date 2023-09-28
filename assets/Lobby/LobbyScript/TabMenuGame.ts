@@ -31,8 +31,6 @@ export default class TabMenuGame extends cc.Component {
     listGameOff: cc.Node[] = [];
     @property(TabsListGame)
 
-    tabListGame: TabsListGame = null;
-
     startIdxs: number[] = [];
 
     onLoad() {
